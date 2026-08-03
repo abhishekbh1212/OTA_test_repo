@@ -3,8 +3,8 @@ print("========================================")
 print("🚀 BINPRO APP RUNNING — VERSION 1.1.0")
 print("========================================")
 
-num1 = 5
-num2 = 5
+num1 = 15
+num2 = 25
 result = num1 + num2
 
 while True:
