@@ -1,12 +1,12 @@
 import time
 print("========================================")
-print("🚀 BINPRO APP — MULTIPLICATION VERSION 1.0.0")
+print("🚀 BINPRO APP — MULTIPLICATION VERSION 1.1.0")
 print("========================================")
 
-num1 = 4
-num2 = 7
+num1 = 10
+num2 = 10
 result = num1 * num2
 
 while True:
-    print(f"[v1.0.0 Output] Multiplication: {num1} * {num2} = {result}")
+    print(f"[v1.1.0 Output] Multiplication: {num1} * {num2} = {result}")
     time.sleep(3)
