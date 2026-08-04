@@ -1,0 +1,23 @@
+# 1. Update pro.py on laptop to 10 * 10 = 100:
+cat << 'EOF' > pro.py
+import time
+print("========================================")
+print("🚀 BINPRO APP — MULTIPLICATION VERSION 1.1.0")
+print("========================================")
+num1 = 10
+num2 = 10
+result = num1 * num2
+while True:
+    print(f"[v1.1.0 Output] Multiplication: {num1} * {num2} = {result}")
+    time.sleep(3)
+EOF
+# 2. Update latest_release.json to version 1.1.0:
+cat << 'EOF' > latest_release.json
+{
+  "version": "1.1.0",
+  "release_date": "2026-08-04",
+  "download_url": "https://raw.githubusercontent.com/abhishekbh1212/OTA_test_repo/main/pro.py",
+  "sha256": "SKIP_FOR_TEST"
+}
+EOF
+
