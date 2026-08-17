@@ -12,7 +12,7 @@
     "jetson": {
       "needs_update": true,
       "version": "1.31.0",
-      "download_url": "https://github.com/abhishekbh1212/OTA_test_repo/releases/download/v1.31.0/jetson_v1.31.0.zip",
+      "download_url": "https://github.com/abhishekbh1212/OTA_test_repo/releases/download/v1.31.0/BLK_OTA.zip",
       "sha256": "SKIP_FOR_TEST"
     }
   }
