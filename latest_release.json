@@ -1,6 +1,19 @@
 {
-  "version": "1.31.0",
-  "release_date": "2026-08-10",
-  "download_url": "https://github.com/abhishekbh1212/OTA_test_repo/releases/download/v1.31.0/BLK_OTA.zip",
-  "sha256": "SKIP_FOR_TEST"
+  "release_version": "1.31.0",
+  "release_date": "2026-08-17",
+  "release_notes": "Test 2: Jetson Only Update",
+  "components": {
+    "raspi": {
+      "needs_update": false,
+      "version": "1.30.0",
+      "download_url": "",
+      "sha256": "SKIP_FOR_TEST"
+    },
+    "jetson": {
+      "needs_update": true,
+      "version": "1.31.0",
+      "download_url": "https://github.com/abhishekbh1212/OTA_test_repo/releases/download/v1.31.0/jetson_v1.31.0.zip",
+      "sha256": "SKIP_FOR_TEST"
+    }
+  }
 }
